@@ -1,0 +1,35 @@
+$Main:#537A38;
+$Second:#EBB455;
+
+.bannar-area{ 
+    background-image: url("../../../assets/orange.jpg");
+     width: 100%;
+     height: 500px;
+   
+     background-size: cover;
+     background-position: center center;
+
+ 
+.overlay{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   flex-direction: column;
+   align-items: center;
+   
+}
+h2{   
+    text-align: center;
+   width:300px;
+    padding: 5px;
+   font-size: 23px;
+   color:black;
+   background-color: $Second;
+}
+.btn {
+    color:white;
+    background-color: $Main;
+    border: 1px solid $Second;
+  }
+}
