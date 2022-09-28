@@ -1,6 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-    font-family: 'Neo Sans Arabic', 'arial';
+    
     direction: rtl;
-    font-size:20px;
+  }
+  @font-face {
+    font-family: 'cairo';
+    src: url("./assets/fonts/Cairo-Regular.ttf");
+  }
+
+  .cairo{
+    font-family: 'cairo';
+  }
+.Inter{
+  font-family: 'Inter';
+}
+  @font-face {
+    font-family: 'Inter';
+    src: url("./assets/fonts/Inter-Regular.ttf");
   }

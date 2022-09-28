@@ -1,65 +1,141 @@
+
 $Main:#537A38;
 $Second:#EBB455;
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
-  a, a:hover {
-    text-decoration: none !important; }
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
 
-.footer-20192 {
-  margin-top: 50px;
-  position: relative;
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background:#EBDC54;
+}
+
+
+footer {
+  background: #EBDC54;
+  font-weight: 400;
+}
+
+
+input:focus ~ label,  input:valid ~ label{
+  font-size: 0.5em;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+  outline: 0;
+}
+input {
+  border: 0;
+  width: 80%;
   color: black;
-  padding: 7rem 0;
-  background-color: #EBDC54; }
-  .footer-20192 .container {
-    position: relative; }
-  .footer-20192 h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-top: 0;
-    line-height: 1;
-   
-   }
-  .footer-20192 .links li {
-    margin-bottom: 10px;
-    line-height: 1;
-    display: block; 
-    }
-    .footer-20192 .links li a {
-      color: black; 
-      font-size: 14px;
-    }
-      .footer-20192 .links li a:hover {
-        color: white; }
-  .footer-20192 .social li {
+  border-bottom: 2px solid $Main; 
+  background-color: transparent;
+  padding-top: 14;
+  margin-top: 10;
+  font-size: 11px;
+  line-height: 30px
+}
+.styled-input {
+  float: right;
+  margin-bottom: 0.15rem;
+  position: relative;
+  width: 100%;
+}
+.styled-input label {
+  color: $Main;
+  padding: 0.4rem 20px 0rem 0px;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+  font-size: 10px;
+}
+
+input:focus { outline: 0; }
+
+input:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+.card_button{
+  box-sizing: border-box;
+  width: 105px;
+  height: 30px;
+  position: relative;
+  right: 90px;
+  top:2px;
+  background: rgba(82, 121, 55, 0.8);
+  border: 3px solid rgba(235, 180, 84, 0.8);
+}
+
+h5{
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: right;
+color: #000000;
+line-height: 160%;
+}
+.list-unstyled{
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: right;
+  color: #000000; 
+  line-height: 160%;
+  padding: 0;
+}
+img {
+width: 250px;
+height: 100px;
+}
+.info{
+font-style: normal;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 10px;
+text-align: left;
+list-style: none;
+padding: 0;
+margin: 0;
+
+}
+.info i{
+  color: #537A38;
+}
+.social{
+  margin-right: 100px;
+  margin-top: 5px;
+}
+ .social li {
+  display: inline-block;
+  position: relative;
+  margin:2px}
+  .social li a {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     display: inline-block;
-    position: relative; 
-    padding: 1px;
-  }
-    .footer-20192 .social li a {
-      position: relative;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      border: 1px solid $Main;
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      background-color: transparent;
-      color: $Main; }
-      .footer-20192 .social li a > span {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
-  .footer-20192 .footer-logo {
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: .1rem; }
-  .footer-20192 .copyright {
-    color: #666873; }
+    margin: 0;
+    padding: 5;
+    background-color: transparent;
+    color: $Main;
+    border:1px solid $Main
+   }
+   .social li a > span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }

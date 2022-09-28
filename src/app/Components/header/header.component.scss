@@ -1,33 +1,65 @@
-$Main:#537A38;
+$Main:#527937; 
 $Second:#EBB455;
 $gray:#DDDDDD;
 $light-gray:#EEEEEE;     
-      header{
-        height: 100px;
-        background-color: white;
-        nav{
-          background-color: white;
-          .nav-link,a{
-              color: $Main;
-              font-size:17px;
-             
-          }
-          .nav-link:hover{
-            color: $Second;
-        } 
- 
-      }
- 
+header{
+  // background-image: url('/assets/wall-background.jpg');
+  //  height: 100vh;  background-repeat:no-repeat; background-size: cover;
+  height: 120px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.15);
+  font-family: 'cairo';
+  img{
+    width:250px;
+    height: 100px;
+    
+  }
+  nav{
+    .nav-link,a{
+        color: $Main;
+        font-size:20px;
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+    }
+    .nav-link:hover{
+      color: $Second;
+  } 
+}
+
+}
+// ul li:not(:last-child)::before{
+//   content:""; 
+//   border:1.5px solid $Main;
+//   border-width: 1.5px 2px 0 0;
+//   position:absolute; 
+//   top:45%; 
+//   height:10%;
+// }      
       .colorFont {
         color: black;
         font-size: 20px;
         filter:drop-shadow(10px 10px 10px $Second);
-  
+
     }
-    
     .offcanvas {
         width: 45%;
        
     }
-}
  
+// @media screen and (max-width: 600px) {
+//   nav{
+//   right: 0;
+//   left: 0;
+//   top:20px;
+//   .nav-link{
+//   }
+//   img{
+//     position: absolute;
+//     left: 40;
+//     top:-9px;
+   
+//   }
+// }
+// }
