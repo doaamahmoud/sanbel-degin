@@ -67,12 +67,13 @@ input:focus ~ span {
 .card_button{
   box-sizing: border-box;
   width: 105px;
-  height: 30px;
+  height: 33px;
   position: relative;
   right: 90px;
   top:2px;
   background: rgba(82, 121, 55, 0.8);
   border: 3px solid rgba(235, 180, 84, 0.8);
+
 }
 
 h5{
@@ -103,17 +104,13 @@ font-style: normal;
 font-family: 'Inter';
 font-weight: 400;
 font-size: 10px;
-text-align: left;
 list-style: none;
 padding: 0;
-margin: 0;
-
 }
 .info i{
   color: #537A38;
 }
 .social{
-  margin-right: 100px;
   margin-top: 5px;
 }
  .social li {

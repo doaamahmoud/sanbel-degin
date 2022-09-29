@@ -1,21 +1,19 @@
 
 <header class="container-fluid p-0 m-0">
    <nav class="navbar navbar-expand-lg ">
-     <div class="container-fluid">
        <a class="navbar-brand" href="#">
-         <img src="../../../assets/sanabel-logo.png" alt="" >
+         <img src="../../../assets/sanabel-logo.png"   alt="" >
        </a>
        <button class="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
          <span class="navbar-toggler-icon"></span>
        </button>
-       <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar">
+       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title colorFont" id="offcanvasNavbarLabel">سنابل جروب</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
-
       </div>
-         <ul class="navbar-nav my-2 my-lg-0  mx-auto" style="--bs-scroll-height: 100px;">
+         <ul class="navbar-nav  mx-auto" >
            <li class="nav-item">
              <a class="nav-link " aria-current="page" href="#">الرئيسية</a>
            </li>
@@ -23,10 +21,23 @@
              <a class="nav-link" href="#">عن سنابل جروب</a>
            </li>
            <li class="nav-item ">
-             <a class="nav-link"  routerLink='/Products' routerLinkActive="active">منتجاتنا</a>
+             <a class="nav-link dropdown-toggle"  routerLink='/Products' routerLinkActive="active" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">منتجاتنا</a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">المبيدات والأسمدة</a>
+              <a class="dropdown-item" href="#">نظم الري الحديثة</a>
+              <a class="dropdown-item" href="#">ادوات ومعدات</a>
+              <a class="dropdown-item" href="#">حلول الطاقة الشمسية</a>
+            </div>
            </li>
            <li class="nav-item ">
-             <a class="nav-link" href="#">خدماتنا</a>
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">خدماتنا</a>
+            
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">الاستشارات  فنية</a>
+              <a class="dropdown-item" href="#">دراسة الجدوي</a>
+              <a class="dropdown-item" href="#">ادارة المزارع</a>
+              <a class="dropdown-item" href="#">معامل تحاليل التربة</a>
+            </div>
            </li>
            <li class="nav-item ">
             <a class="nav-link" href="#">اكاديمية سنابل</a>
@@ -37,11 +48,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#">تواصل معنا</a>
           </li>
+
          </ul>
 
 </div>
-
-       </div>
    </nav>
    
    </header>
