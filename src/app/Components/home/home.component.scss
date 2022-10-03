@@ -16,7 +16,30 @@ $Second:#EBB455;
   border-radius: 0;
   padding: 0;
 }
-    
+  .btn-card{
+  color:white;
+  border:0;
+  width: 115px;
+  height: 35px;
+  font-size: 18px;
+  font-family: 'cairo';
+  background: #EBB454;
+  border-radius: 0;
+  padding: 0;
+    }
+    .card-text{
+      font-family: 'Cairo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11.5px;
+    }
+    .card-img-top{
+      border-radius: 0%;
+    }
+    .partner img{
+      width:110px;
+      height:100px;
+    }
 h2{  
   width: 538px;
   height: 70px;

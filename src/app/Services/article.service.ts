@@ -18,9 +18,9 @@ export class ArticleService {
  }
  getAllArticles():Observable<Iarticle[]>
   {
-    return this.httpClient.get<Iarticle[]>(`${environment.APIBaseURL}/Article`);
+    return this.httpClient.get<Iarticle[]>(`${environment.APIBaseURL}/Article/GetAllArticles`);
    }
   getArticleByID(ID:number):Observable<Iarticle>{
-      return this.httpClient.get<Iarticle>(`${environment.APIBaseURL}/Article/${ID}`)
+      return this.httpClient.get<Iarticle>(`${environment.APIBaseURL}/Article/GetArticleByID/${ID}`)
    }
 }

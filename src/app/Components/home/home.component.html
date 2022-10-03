@@ -132,24 +132,34 @@
       <h2  class="text-center p-2">حلول الطاقة الشمسية</h2></div>
    </div>
 
-   <div class="row d-flex justify-content-center text-center mt-2 mb-2" >
-    <div class="text-center align-items-center article">
-      <p class="text-center p-2">مقالات وأخبار</p>
-    </div>
-    <div class="justify-center center">
-      <div class="card" style="width: 18rem;" Ligth *ngFor="let art of ArticleList; let i=index">
-          <img class="card-img-top" [src]="art.url" alt="Card image cap">
-          <div class="card-body" >
-           
-            <p class="card-text">{{art.description}}</p>
-            <div class="row">
-            <button class="btn addCart col">اعرف المزيد</button>
-          </div>
-          </div>
-        </div>
-      </div>
-   </div>
+   <div class="row d-flex justify-content-center text-center mt-2 article" >
+      <p class="text-center p-0 m-0">مقالات وأخبار</p>
+  </div>
 
+  <div class="row d-flex justify-content-center text-center" >
+      <div class="card m-4  p-0 border-0" style="width: 24rem;" Ligth *ngFor="let art of ArticleList; let i=index">
+          <img class="card-img-top" height="170rem" [src]="art.url" alt="Card image cap">
+          <div class="card-body p-0" >
+            <p class="card-text">{{art.description}}</p>
+            <div class="d-flex justify-content-end">
+            <button class="btn-card">اعرف المزيد</button>
+          </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="row d-flex justify-content-center text-center mt-2 article" >
+    <p class="text-center p-0 m-0">شــــــركاء النجاح</p>
+</div>
+
+  <div class="row d-flex justify-content-center text-center partner" >
+    <div class="p-1" style="width: 14rem;"><img src="../../../assets/BASF-Logo 1.png"/></div>
+    <div class="p-1" style="width: 14rem;"><img src="../../../assets/Jinko_Solar_logo1.png"/></div>
+    <div class="p-1" style="width: 14rem;"><img src="../../../assets/5a05b1e3b932554f30d3d6ca 1.png"/></div>
+    <div class="p-1" style="width: 14rem;"><img src="../../../assets/Neisco-Egypt-Egypt-22685-1495101727 1.png"/></div>
+    <div class="p-1" style="width: 14rem;"><img src="../../../assets/1741764_logo_1482338170_n 1.png"/></div>
+
+  </div>
 
 </div>
  
