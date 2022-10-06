@@ -9,12 +9,12 @@ import { Iarticle } from '../ViewModels/iarticle';
 })
 export class ArticleService {
   private httpOptions
-  constructor(private httpClient:HttpClient) {
+  constructor(private httpClient:HttpClient){
     this.httpOptions={
       headers: new HttpHeaders({
         'Content-Type': 'application/json'
       })
-   }
+    }
  }
  getAllArticles():Observable<Iarticle[]>
   {
@@ -22,5 +22,5 @@ export class ArticleService {
    }
   getArticleByID(ID:number):Observable<Iarticle>{
       return this.httpClient.get<Iarticle>(`${environment.APIBaseURL}/Article/GetArticleByID/${ID}`)
-   }
+   } 
 }
