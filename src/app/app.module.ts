@@ -12,6 +12,7 @@ import { ArticleComponent } from './Components/article/article.component';
 import { AboutComponent } from './Components/about/about.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { FeasibilityStudyComponent } from './Components/feasibility-study/feasibility-study.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     ProductsComponent,
     ArticleComponent,
-    AboutComponent
+    AboutComponent,
+    FeasibilityStudyComponent
   ],
   imports: [
     BrowserModule,
