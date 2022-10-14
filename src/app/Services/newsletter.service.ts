@@ -17,5 +17,6 @@ export class NewsletterService {
    }
    }
    AddNewsLetter(newsletter:INewsletter):Observable<INewsletter>{
-    return this.httpClient.post<INewsletter>(`${environment.APIBaseURL}/NewsLetter/AddNewsLetter/`,JSON.stringify(newsletter),this.httpOptions); }
+    return this.httpClient.post<INewsletter>(`${environment.APIBaseURL}/NewsLetter/AddNewsLetter`,JSON.stringify(newsletter),this.httpOptions); }
+    
 }

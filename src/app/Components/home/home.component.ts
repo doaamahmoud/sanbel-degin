@@ -11,10 +11,9 @@ import { Iarticle } from 'src/app/ViewModels/iarticle';
 export class HomeComponent implements OnInit {
   ArticleList:Iarticle[];
   Articles:Iarticle[];
-  constructor(private ArticleService:ArticleService ,private San:DomSanitizer,) { 
+  constructor(private ArticleService:ArticleService ,private San:DomSanitizer) { 
     this.ArticleList=[];
     this.Articles=[];
-
   }
 
   ngOnInit(): void {

@@ -8,11 +8,11 @@ import { LayoutComponent } from './Components/layout/layout.component';
 import { HomeComponent } from './Components/home/home.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { ProductsComponent } from './Components/products/products.component';
-import { ArticleComponent } from './Components/article/article.component';
 import { AboutComponent } from './Components/about/about.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FeasibilityStudyComponent } from './Components/feasibility-study/feasibility-study.component';
+import { ContactUSComponent } from './Components/contact-us/contact-us.component';
 
 
 @NgModule({
@@ -23,15 +23,16 @@ import { FeasibilityStudyComponent } from './Components/feasibility-study/feasib
     HomeComponent,
     FooterComponent,
     ProductsComponent,
-    ArticleComponent,
     AboutComponent,
-    FeasibilityStudyComponent
+    FeasibilityStudyComponent,
+    ContactUSComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

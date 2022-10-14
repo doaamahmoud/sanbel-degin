@@ -3,18 +3,21 @@
       <div class="row">
           <div class="col-md-3">
             <h5 class=" mb-3">النشرة البريدية</h5>
-            <form class="card_form">
+            <form #letter="ngForm" class="card_form" (ngSubmit)="SaveLetter(letter.value)">
               <div class="styled-input ">
-                <input type="text" required />
+                <input #PerName="ngModel" type="text" [(ngModel)]="newLetter.name" name="name"
+                 [class.is-valid]="PerName.valid" [class.is-invalid]="PerName.invalid && PerName.touched" required />
                 <label>الاسم</label> 
                 </div>
                 <div class="styled-input ">
-                  <input type="text" required />
+                  <input  type="email" #PerEmail="ngModel" [(ngModel)]="newLetter.email" name="email"
+                   [class.is-valid]="PerEmail.valid" [class.is-invalid]="PerEmail.invalid && PerEmail.touched" required />
                   <label>البريد الالكتروني</label> 
                   </div>
-              <button class="card_button">اشترك</button>
+              <button [disabled]=" PerEmail.invalid &&PerName.invalid"  type="submit" class="card_button">اشترك</button>
             </form>
         </div>
+
           <div class="col-sm col">
               <h5 class=" mb-3">عن سنابل</h5>
               <ul class="list-unstyled">

@@ -18,32 +18,38 @@
              <a class="nav-link " aria-current="page" routerLink='/Layout' routerLinkActive="active">الرئيسية</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="#">عن سنابل جروب</a>
+             <a class="nav-link" routerLink='/About' routerLinkActive="active">عن سنابل جروب</a>
            </li>
            <li class="nav-item ">
              <a class="nav-link dropdown-toggle"  routerLink='/Products' routerLinkActive="active" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">منتجاتنا</a>
-             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">المبيدات والأسمدة</a>
-              <a class="dropdown-item" href="#">نظم الري الحديثة</a>
-              <a class="dropdown-item" href="#">ادوات ومعدات</a>
-              <a class="dropdown-item" href="#">حلول الطاقة الشمسية</a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" *ngFor="let cat of Categories; let i=index">
+              <a class="dropdown-item" href="#">{{cat.name}}</a>
+              </div>
+           </li>
+           <li ngbDropdown class="nav-item dropdown">
+             <a class="nav-link menu-item dropdown-toggle"  routerLink='/study' routerLinkActive="active" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">خدماتنا</a>
+            <div ngbDropdownMenu class="dropdown dropdown-menu"  >
+              <a ngbDropdownItem class="dropdown-item menu-item" href="#">الاستشارات  فنية</a>
+              <a ngbDropdownItem class="dropdown-item menu-item" href="#">دراسة الجدوي</a>
+              <a ngbDropdownItem class="dropdown-item menu-item" href="#">ادارة المزارع</a>
+              <a ngbDropdownItem class="dropdown-item menu-item" href="#">معامل تحاليل التربة</a>
             </div>
            </li>
-           <li class="nav-item ">
-             <a class="nav-link dropdown-toggle" routerLink='/study' routerLinkActive="active" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">خدماتنا</a>
-            
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">الاستشارات  فنية</a>
-              <a class="dropdown-item" href="#">دراسة الجدوي</a>
-              <a class="dropdown-item" href="#">ادارة المزارع</a>
-              <a class="dropdown-item" href="#">معامل تحاليل التربة</a>
+           <!-- <li ngbDropdown class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div ngbDropdownMenu class="dropdown-menu">
+              <a ngbDropdownItem class="dropdown-item" href="#">Action</a>
+              <a ngbDropdownItem class="dropdown-item" href="#">Another action</a>
+              <a ngbDropdownItem class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
             </div>
-           </li>
+          </li> -->
            <li class="nav-item ">
             <a class="nav-link" href="#">اكاديمية سنابل</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="#">شركائنا</a>
+            <a class="nav-link"  routerLink='/Home' frigment='partners' routerLinkActive="active">شركائنا</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">تواصل معنا</a>
