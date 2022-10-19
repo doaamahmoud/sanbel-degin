@@ -38,12 +38,12 @@ $Second:#EBB455;
     }
    
 h2{  
-  width: 538px;
+  width: 438px;
   height: 70px;
   font-family: 'Cairo';
   font-style: normal;
-  font-weight: 400;
-  font-size: 38px;
+  font-weight: 300;
+  font-size: 28px;
   line-height: 65px;
  background-color: $Second;
 }
@@ -54,14 +54,14 @@ h2{
   justify-content: center;
 }
 .carousel-item{
-  height: 809px;
+  height: 520px;
   background: no-repeat center;
   background-size:cover;
 
 }
 .contact{
   background-image: url('../../../assets/mango-wooden-table.jpg');
-  height: 690px; 
+  height: 600px; 
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center center;
@@ -71,16 +71,16 @@ h2{
     background-color: rgba(0, 0, 0, 0.8);
     font-family: 'Cairo';
     font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 300;
+    font-size: 20px;
     line-height: 156.9%;
   }
   .menutitle{
     font-family: 'Cairo';
     font-style: normal;
-    font-weight: 400;
-    font-weight: 400;
-    font-size: 38px;
+    font-weight: 300;
+    font-weight: 300;
+    font-size: 30px;
     line-height: 90px;
   }
   p{
@@ -88,7 +88,7 @@ h2{
   }
   ul{
     color: $Second;
-    line-height: 35px;
+    line-height: 30px;
   }
 }
 
@@ -161,9 +161,11 @@ input[type="radio"]{
 .introduction{
   font-family: 'Cairo';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 22px;
   line-height: 156.9%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .productus{
@@ -197,4 +199,46 @@ font-weight: 400;
 font-size: 32px;
 line-height: 90px;
 color: #527937;
+}
+
+@media screen and (max-width:420px) {
+  .carousel-item{
+    height: 350px;
+  } 
+  h2{
+    width: 238px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;   
+  }
+  .introduction{
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .contact{
+    height: 300px; 
+  .service{
+    font-size: 18px;
+  }
+  .menutitle{
+    margin: 0 !important;
+    font-size: 13px;
+    line-height: 0px;
+  }
+  hr{
+    margin: 0 !important;
+  }
+  .introduction{
+    padding: 0 !important;
+    padding-top: 8px !important;
+    margin: 0 !important;
+  }
+  p, li{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  ul{
+    line-height: 15px;
+  }
+}
 }
