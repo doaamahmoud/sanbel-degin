@@ -23,14 +23,14 @@
   }
 
   div > .st3{
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
    z-index: -10px;
    margin-left:-30%;
   }
   div > .st4{
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
   z-index:10%;
   margin-top: -10%;
   }
@@ -38,12 +38,17 @@
   .textstyle{
     font-family: 'Cairo';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     line-height: 40px;
     text-align: right;
     color: #000000;
+    p{
+      font-size: 29px;
+      font-weight: bold;
+    }
       }
+
 
       .about{
         font-family: 'Cairo';
@@ -52,12 +57,15 @@
         font-size: 24px;
         line-height: 40px;
         text-align: right;
-        height: 450px;
+        height: 320px;
         color: white;
         background-size: cover;
-        background:  center;
         .opac{
             background: rgba(82, 121, 55, 0.56);
+        }
+        p{
+          font-size: 30px;
+          font-weight: 600px;
         }
       }
       .about2{
@@ -67,12 +75,15 @@
         font-size: 24px;
         line-height: 40px;
         text-align: right;
-        height: 885px;
+        height: 525px;
         color: white;
         background-size: cover;
-        background: center;
         .opac{
             background: rgba(82, 121, 55, 0.56);
+        }
+        p{
+          font-size: 30px;
+          font-weight: 600px;
         }
       }
 
@@ -110,3 +121,74 @@
         transform: translateY(-2.1rem);
         transition: 2s;
       }
+
+      @media screen and (max-width:420px) {
+        .productus{
+          height: 300px;
+        }
+        .productus> div h2{
+          width: 238px;
+          height: 30px;
+          font-size: 18px;
+          line-height: 30px;
+          }
+          .story{
+            margin: 0 !important;
+          }
+          .textstyle{
+            display: inline-block;
+            font-size: 10px;
+            line-height: 15px;
+            p{
+              font-size: 12px;
+            }
+           }
+           div > .st3{
+            width: 60%;
+            height: 60%;
+           z-index: -10px;  
+          }
+          div > .st4{
+          width: 60%;
+          height: 60%;
+          z-index:10%;
+          }
+
+          .about{
+            font-size: 10px;
+            line-height: 15px;
+            height: 200px;
+            p{
+              font-size: 15px;
+              margin-bottom: 8px;
+            }
+            .opac{
+                background: rgba(82, 121, 55, 0.56);
+            }
+          }
+          .about2{
+            font-size: 10px;
+            line-height: 15px;
+            height: 225px;
+            color: white;
+            background-size: cover;
+            p{
+              font-size: 15px;
+              margin-bottom: 8px;
+            }
+            .opac{
+                background: rgba(82, 121, 55, 0.56);
+            }
+          }
+           .txt1{
+            font-size: 18px;
+            color: white;
+            line-height: 67px;
+           }
+           .txt2{
+            font-size: 10px;
+            color: black;
+            line-height: 45px;
+           }
+          }
+          

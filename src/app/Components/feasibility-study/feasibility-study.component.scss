@@ -66,3 +66,15 @@ color: #000000;
     background-color: #EBB454;
     color:black;
   }
+
+  @media screen and (max-width:420px) {
+  .productus{
+    height: 300px;
+  }
+  .productus> div h2{
+    width: 238px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    }
+  }

@@ -21,6 +21,19 @@ header{
     .nav-link:hover{
       color: $Second;
   } 
+  .dropdown-menu {
+    width:1rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: -20px;
+    li a{
+      font-size: 15px;
+    }
+    li a:active{
+      background-color: transparent;
+    }
+  }
+  
 }
 
 }    
