@@ -77,4 +77,38 @@ color: #000000;
     font-size: 18px;
     line-height: 30px;
     }
+    .textstyle{
+      display: inline-block;
+      font-size: 10px;
+      line-height: 15px;
+     }
+     div > .st1{
+      width: 90%;
+      height: 90%;
+     z-index: -10px;
+    }
+    div > .st2{
+    width: 90%;
+    height: 90%;
+    z-index:10%;
+    margin-top: -10%;
+    margin-left: -30%;
+    }
+     div > .st3{
+      width: 90%;
+      height: 90%;
+     z-index: -10px;  
+    }
+    div > .st4{
+    width: 90%;
+    height: 90%;
+    z-index:10%;
+    }
+    .expert >h2{
+      width: 200px;
+      height: 30px;
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 30px;
+      }     
   }

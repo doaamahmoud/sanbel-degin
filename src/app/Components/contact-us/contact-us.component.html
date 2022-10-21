@@ -1,1 +1,58 @@
-<p>contact-us works!</p>
+<div class="container-fluid  m-0 cairo">
+  <div class="row d-flex justify-content-center align-items-center text-center contact">
+    <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-7 info">
+        <p class="p1">تواصل معنا</p>
+         <p class="p2">فريق عـــملنا 
+            مستعد دائما
+            لطلــــــباتكم</p>
+        </div>
+    </div>
+    <div class="col-7">
+        
+        <form #letter="ngForm" class="card_form" (ngSubmit)="SendContact(letter.value)">
+               <div class="styled-input ">
+              <input #PerName="ngModel" type="text" [(ngModel)]="newLetter.name" name="name"
+               [class.is-valid]="PerName.valid" [class.is-invalid]="PerName.invalid && PerName.touched" required />
+              <label>الاسم</label> 
+               </div>
+               <div class="styled-input ">
+                <input  type="email" #PerEmail="ngModel" [(ngModel)]="newLetter.email" name="email"
+                 [class.is-valid]="PerEmail.valid" [class.is-invalid]="PerEmail.invalid && PerEmail.touched" required />
+                <label>البريد الالكتروني</label> 
+                </div>
+                <div class="styled-input ">
+                    <input  type="number" #PerNum="ngModel" [(ngModel)]="newLetter.name" name="phone"
+                     [class.is-valid]="PerNum.valid" [class.is-invalid]="PerNum.invalid && PerNum.touched" required />
+                    <label>تليفون</label> 
+                </div>
+                <div class="styled-input">
+                        <textarea rows="4" cols="50"  #PerMess="ngModel" [(ngModel)]="newLetter.name" name="message"
+                         [class.is-valid]="PerMess.valid" [class.is-invalid]="PerMess.invalid && PerMess.touched" required ></textarea>
+                        <label>رسالتك</label> 
+                </div>
+            <button [disabled]=" PerEmail.invalid &&PerName.invalid &&PerNum.invalid"  type="submit" class="card_button">ارسل</button>
+          </form>
+    </div>
+  </div>
+
+  <div class="row  d-flex justify-content-center align-items-center text-center branches">
+    <div class="col-10 cont d-flex justify-content-center align-items-center text-center m-0 mb-2" *ngFor="let brn of BranchList; let i=index">
+        <div class="col-3 branchName d-flex align-items-center justify-content-center"> <p>{{brn.name}}</p></div>
+        <div class="col-9 branchInfo d-flex align-items-center justify-content-center" >
+            <div class="col-8">
+              <ul class="list-unstyled info">
+                <li ><i class="fa fa-map-marker" aria-hidden="true"></i> {{brn.address}}</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>{{brn.phone1}}        {{brn.phone2}}</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>{{brn.email}}</li>
+              </ul>
+            </div>
+            <div class="col-4">
+                <div class="divide"></div>
+               <div> <a>اعرض الخريطة</a></div>
+            </div>
+         </div>
+     </div>
+  </div>
+
+</div>
