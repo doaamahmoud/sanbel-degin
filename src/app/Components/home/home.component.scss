@@ -303,4 +303,18 @@ line-height: 100%;
 color:#527937;
 margin: 0;
 }
+.card{
+  width: 110px !important;
+  img{
+  height: 6rem !important;
+  }
+  .card-text{
+    font-size: 8px;
+  }
+  .btn-card{
+    width: 35px;
+    height: 15px;
+    font-size: 5px;
+  }
+}
 }
