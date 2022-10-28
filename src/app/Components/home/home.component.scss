@@ -16,7 +16,6 @@ input[type="radio"] {
   width: 130px;
   height: 40px;
   font-size: 20px;
-  font-family: 'cairo';
   position: relative;
   background: transparent;
   background: rgba(82, 121, 55, 0.8);
@@ -30,15 +29,11 @@ input[type="radio"] {
   width: 115px;
   height: 35px;
   font-size: 18px;
-  font-family: 'cairo';
   background: #EBB454;
   border-radius: 0;
   padding: 0;
     }
     .card-text{
-      font-family: 'Cairo';
-      font-style: normal;
-      font-weight: 400;
       font-size: 11.5px;
     }
     .card-img-top{
@@ -48,9 +43,6 @@ input[type="radio"] {
 h2{
   width: 438px;
   height: 70px;
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 300;
   font-size: 28px;
   line-height: 65px;
  background-color: $Second;
@@ -77,17 +69,10 @@ h2{
   font-family: 'cairo';
   .service{
     background-color: rgba(0, 0, 0, 0.8);
-    font-family: 'Cairo';
-    font-style: normal;
-    font-weight: 300;
     font-size: 20px;
     line-height: 156.9%;
   }
   .menutitle{
-    font-family: 'Cairo';
-    font-style: normal;
-    font-weight: 300;
-    font-weight: 300;
     font-size: 30px;
     line-height: 90px;
   }
@@ -184,137 +169,131 @@ textarea {
 width: 419px;
 height: 70px;
 background: rgba(255, 255, 255, 0.7);
-font-family: 'cairo';
-font-style: normal;
-font-weight: 400;
+
 font-size: 28px;
 line-height: 156.9%;
-color:#527937;
+
 margin: 0;
 }
 .article{
-font-family: 'Cairo';
-font-style: normal;
-font-weight: 400;
 font-size: 32px;
 line-height: 90px;
-color: #527937;
 }
 
 
 
-// @media screen and (max-width:420px) {
-//   .btn {
-//     width: 60px;
-//     height: 20px;
-//     font-size: 10px;
-//     background: rgba(82, 121, 55, 0.8);
-//     border: 1px solid rgba(235, 180, 84, 0.8);
-//   }
-//   .carousel-item{
-//     height: 300px;
-//   }
-//   h2{
-//     width: 238px;
-//     height: 30px;
-//     font-size: 18px;
-//     line-height: 30px;
-//   }
-//   .introduction{
-//     font-size: 12px;
-//     line-height: 140%;
-//   }
-//   .contact{
-//     height: 250px;
-//     .service{
-//       font-size: 18px;
-//       height: 100%;
-//       }
-//     .formcont{
-//       margin-top:30px !important;
-//      }
-//   .menutitle{
-//     margin: 0 !important;
-//     font-size: 13px;
-//     line-height: 0px;
-//   }
-//   hr{
-//     margin: 0 !important;
-//   }
-//   .introduction{
-//     padding: 0 !important;
-//     padding-top: 8px !important;
-//     margin: 0 !important;
-//   }
-//   p, li{
-//     font-size: 10px;
-//     line-height: 15px;
-//   }
-//   ul{
-//     line-height: 15px;
-//   }
-// }
-// .styled-input label {
-//   font-size: 10px;
-// }
-// .styled-input{
-//   text-align: center;
-//   margin-bottom: -0.2rem;
-// }
-// .styled-input.wide {
-//   width: 100%;
-//   margin-bottom: 0.1rem;
-// }
-// input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
-//   font-size: 0.5em;
-//   top: -3px;
-// }
-// input,
-// textarea {
-//   padding: 10px;
-//   width: 90%;
-//   height: 1.4rem;
-//   font-size: 0.5rem;
-// }
-// .submit-btn{
-//   width:60px;
-// }
-// .productus{
-//   height: 160px;
-//   background: linear-gradient(0deg, rgba(82, 121, 55, 0.8), rgba(82, 121, 55, 0.8));
-//   background: no-repeat center;
-//   background-size: cover;
-// }
-// .productus >div{
-//   height: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-// }
-// .productus> div h2{
-// width: 200px;
-// height: 40px;
-// background: rgba(255, 255, 255, 0.7);
-// font-family: 'cairo';
-// font-style: normal;
-// font-weight: 300;
-// font-size: 18px;
-// line-height: 100%;
-// color:#527937;
-// margin: 0;
-// }
-// .card{
-//   width: 110px !important;
-//   img{
-//   height: 6rem !important;
-//   }
-//   .card-text{
-//     font-size: 8px;
-//   }
-//   .btn-card{
-//     width: 35px;
-//     height: 15px;
-//     font-size: 5px;
-//   }
-// }
-// }
+@media screen and (max-width:420px) {
+  .btn {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background: rgba(82, 121, 55, 0.8);
+    border: 1px solid rgba(235, 180, 84, 0.8);
+  }
+  .carousel-item{
+    height: 300px;
+  }
+  h2{
+    width: 238px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .introduction{
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .contact{
+    height: 250px;
+    .service{
+      font-size: 18px;
+      height: 100%;
+      }
+    .formcont{
+      margin-top:30px !important;
+     }
+  .menutitle{
+    margin: 0 !important;
+    font-size: 13px;
+    line-height: 0px;
+  }
+  hr{
+    margin: 0 !important;
+  }
+  .introduction{
+    padding: 0 !important;
+    padding-top: 8px !important;
+    margin: 0 !important;
+  }
+  p, li{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  ul{
+    line-height: 15px;
+  }
+}
+.styled-input label {
+  font-size: 10px;
+}
+.styled-input{
+  text-align: center;
+  margin-bottom: -0.2rem;
+}
+.styled-input.wide {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.5em;
+  top: -3px;
+}
+input,
+textarea {
+  padding: 10px;
+  width: 90%;
+  height: 1.4rem;
+  font-size: 0.5rem;
+}
+.submit-btn{
+  width:60px;
+}
+.productus{
+  height: 160px;
+  background: linear-gradient(0deg, rgba(82, 121, 55, 0.8), rgba(82, 121, 55, 0.8));
+  background: no-repeat center;
+  background-size: cover;
+}
+.productus >div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productus> div h2{
+width: 200px;
+height: 40px;
+background: rgba(255, 255, 255, 0.7);
+font-family: 'cairo';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 100%;
+color:#527937;
+margin: 0;
+}
+.card{
+  width: 110px !important;
+  img{
+  height: 6rem !important;
+  }
+  .card-text{
+    font-size: 8px;
+  }
+  .btn-card{
+    width: 35px;
+    height: 15px;
+    font-size: 5px;
+  }
+}
+}
