@@ -16,7 +16,6 @@ input[type="radio"] {
   width: 130px;
   height: 40px;
   font-size: 20px;
-  font-family: 'cairo';
   position: relative;
   background: transparent;
   background: rgba(82, 121, 55, 0.8);
@@ -30,15 +29,11 @@ input[type="radio"] {
   width: 115px;
   height: 35px;
   font-size: 18px;
-  font-family: 'cairo';
   background: #EBB454;
   border-radius: 0;
   padding: 0;
     }
     .card-text{
-      font-family: 'Cairo';
-      font-style: normal;
-      font-weight: 400;
       font-size: 11.5px;
     }
     .card-img-top{
@@ -48,9 +43,6 @@ input[type="radio"] {
 h2{  
   width: 438px;
   height: 70px;
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 300;
   font-size: 28px;
   line-height: 65px;
  background-color: $Second;
@@ -77,17 +69,10 @@ h2{
   font-family: 'cairo';
   .service{
     background-color: rgba(0, 0, 0, 0.8);
-    font-family: 'Cairo';
-    font-style: normal;
-    font-weight: 300;
     font-size: 20px;
     line-height: 156.9%;
   }
   .menutitle{
-    font-family: 'Cairo';
-    font-style: normal;
-    font-weight: 300;
-    font-weight: 300;
     font-size: 30px;
     line-height: 90px;
   }
@@ -184,21 +169,15 @@ textarea {
 width: 419px;
 height: 70px;
 background: rgba(255, 255, 255, 0.7);
-font-family: 'cairo';
-font-style: normal;
-font-weight: 400;
+
 font-size: 28px;
 line-height: 156.9%;
-color:#527937;
+
 margin: 0;
 }
 .article{
-font-family: 'Cairo';
-font-style: normal;
-font-weight: 400;
 font-size: 32px;
 line-height: 90px;
-color: #527937;
 }
 
 
@@ -295,12 +274,8 @@ textarea {
 width: 200px;
 height: 40px;
 background: rgba(255, 255, 255, 0.7);
-font-family: 'cairo';
-font-style: normal;
-font-weight: 300;
 font-size: 18px;
 line-height: 100%;
-color:#527937;
 margin: 0;
 }
 .card{
