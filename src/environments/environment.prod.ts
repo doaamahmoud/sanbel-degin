@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  APIBaseURL:"https://localhost:7161/api"
+  APIBaseURL:"https://sanable-api.azurewebsites.net/api"
 };
