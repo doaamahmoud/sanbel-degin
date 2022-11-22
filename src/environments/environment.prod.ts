@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  APIBaseURL:"https://sanable-api.azurewebsites.net/api"
+  APIBaseURL:"http://infosmartvision-001-site1.btempurl.com/sanabelapi/api"
 };

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  APIBaseURL:"https://sanable-api.azurewebsites.net/api"
+  APIBaseURL:"http://infosmartvision-001-site1.btempurl.com/sanabelapi/api"
 };
 
 /*
