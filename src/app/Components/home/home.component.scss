@@ -143,6 +143,10 @@ textarea {
 .submit-btn{
   width:130px;
 }
+.marintro{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .introduction{
   font-family: 'Cairo';
   font-style: normal;
@@ -165,21 +169,25 @@ textarea {
   flex-direction: column;
   justify-content: center;
 }
-.productus> div h2{
+.productus> div h2 {
 width: 419px;
 height: 70px;
 background: rgba(255, 255, 255, 0.7);
-
 font-size: 28px;
 line-height: 156.9%;
-
 margin: 0;
+}
+.productus> div h2 a{
+  text-decoration: none;
+  color: #527937;
+}
+.productus> div h2 a:hover{
+  color: #25440e;
 }
 .article{
 font-size: 32px;
 line-height: 90px;
 }
-
 
 
 @media screen and (max-width:420px) {
@@ -277,6 +285,13 @@ background: rgba(255, 255, 255, 0.7);
 font-size: 18px;
 line-height: 100%;
 margin: 0;
+}
+.productus> div h2 a{
+  text-decoration: none;
+  color: #527937;
+}
+.productus> div h2 a:hover{
+  color: #25440e;
 }
 .card{
   width: 110px !important;
