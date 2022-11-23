@@ -23,6 +23,15 @@ categoryID:number=1;
     this.SupCategoryService.getSupCategoriesByCategoryID(this.categoryID).subscribe(data=>{
       this.SupCategoriesList=data;
     });
+
+    this.productService.getProductsBySupCategoryID(1).subscribe(data=>{
+      this.ProductsList=data;
+      this.ProductsList.forEach(element => {
+        element.url=this.San.bypassSecurityTrustUrl('data:image/png;base64,'+element.image)
+      });
+     
+    })
+    
  }
  showProducts(id:number){
   this.productService.getProductsBySupCategoryID(id).subscribe(data=>{
