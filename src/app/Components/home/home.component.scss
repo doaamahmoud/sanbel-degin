@@ -47,6 +47,16 @@ h2{
   line-height: 65px;
  background-color: $Second;
 }
+
+.carousel-text {
+
+   z-index: 16;
+color: $Main;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .carousel-item > div {
   height: 100%;
   display: flex;
@@ -200,7 +210,7 @@ line-height: 90px;
     margin: 0px 0;
     .fab {
       width: calc(100% / 5);
-      animation: fade-in 0.5s 
+      animation: fade-in 0.5s
         cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
     }
   }
