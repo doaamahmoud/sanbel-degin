@@ -39,8 +39,8 @@ input[type="radio"] {
     .card-img-top{
       border-radius: 0%;
     }
-   
-h2{  
+
+h2{
   width: 438px;
   height: 70px;
   font-size: 28px;
@@ -61,7 +61,7 @@ h2{
 }
 .contact{
   background-image: url('../../../assets/mango-wooden-table.jpg');
-  height: 600px; 
+  height: 600px;
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center center;
@@ -113,7 +113,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
   pointer-events: none;
 }
 
-.styled-input.wide { 
+.styled-input.wide {
   width: 100%;
 }
 
@@ -124,7 +124,7 @@ textarea {
   width: 100%;
   font-size: 1rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);     
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 input:focus,
@@ -235,19 +235,19 @@ to {
   }
   .carousel-item{
     height: 300px;
-  } 
+  }
   h2{
     width: 238px;
     height: 30px;
     font-size: 18px;
-    line-height: 30px;   
+    line-height: 30px;
   }
   .introduction{
     font-size: 12px;
     line-height: 140%;
   }
   .contact{
-    height: 250px; 
+    height: 250px;
     .service{
       font-size: 18px;
       height: 100%;
@@ -283,7 +283,7 @@ to {
   text-align: center;
   margin-bottom: -0.2rem;
 }
-.styled-input.wide { 
+.styled-input.wide {
   width: 100%;
   margin-bottom: 0.1rem;
 }
@@ -296,7 +296,7 @@ textarea {
   padding: 10px;
   width: 90%;
   height: 1.4rem;
-  font-size: 0.5rem; 
+  font-size: 0.5rem;
 }
 .submit-btn{
   width:60px;
@@ -317,8 +317,12 @@ textarea {
 width: 200px;
 height: 40px;
 background: rgba(255, 255, 255, 0.7);
+font-family: 'cairo';
+font-style: normal;
+font-weight: 300;
 font-size: 18px;
 line-height: 100%;
+color:#527937;
 margin: 0;
 }
 .productus> div h2 a{
