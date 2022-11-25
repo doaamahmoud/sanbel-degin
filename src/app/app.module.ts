@@ -15,6 +15,9 @@ import { FeasibilityStudyComponent } from './Components/feasibility-study/feasib
 import { ContactUSComponent } from './Components/contact-us/contact-us.component';
 import { IrrigationSystemComponent } from './Components/irrigation-system/irrigation-system.component';
 import { SolarEnergySolutionsComponent } from './Components/solar-energy-solutions/solar-energy-solutions.component';
+import { FarmManagementComponent } from './Components/farm-management/farm-management.component';
+import { ConsultingAdvisingComponent } from './Components/consulting-advising/consulting-advising.component';
+import { SanableLaboratoryComponent } from './Components/sanable-laboratory/sanable-laboratory.component';
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { SolarEnergySolutionsComponent } from './Components/solar-energy-solutio
     FeasibilityStudyComponent,
     ContactUSComponent,
     IrrigationSystemComponent,
-    SolarEnergySolutionsComponent
+    SolarEnergySolutionsComponent,
+    FarmManagementComponent,
+    ConsultingAdvisingComponent,
+    SanableLaboratoryComponent
   ],
   imports: [
     BrowserModule,
