@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FeasibilityStudyComponent } from './Components/feasibility-study/feasibility-study.component';
 import { ContactUSComponent } from './Components/contact-us/contact-us.component';
+import { IrrigationSystemComponent } from './Components/irrigation-system/irrigation-system.component';
+import { SolarEnergySolutionsComponent } from './Components/solar-energy-solutions/solar-energy-solutions.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { ContactUSComponent } from './Components/contact-us/contact-us.component
     ProductsComponent,
     AboutComponent,
     FeasibilityStudyComponent,
-    ContactUSComponent
+    ContactUSComponent,
+    IrrigationSystemComponent,
+    SolarEnergySolutionsComponent
   ],
   imports: [
     BrowserModule,
