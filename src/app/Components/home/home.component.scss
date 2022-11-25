@@ -249,6 +249,10 @@ to {
 }
 
 @media screen and (max-width:420px) {
+.carousel-text{
+  margin-top: -200px;
+  
+}
   .btn {
     width: 60px;
     height: 20px;
@@ -369,4 +373,12 @@ margin: 0;
     font-size: 5px;
   }
 }
+}
+
+@media screen and (max-width:920px ) and (min-width:400px) {
+  .carousel-text{
+    margin-top: -300px;
+    
+  }
+  
 }
