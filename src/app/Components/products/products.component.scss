@@ -2,10 +2,10 @@
 
 
 .productus{
-    height: 520px;
+    height: 500px;
     background: no-repeat center ;
     background-size:cover;
-    
+
   }
   .productus >div{
     height: 100%;
@@ -67,14 +67,14 @@ color: #000000;
            font-size: 22px;
            border: 0;
            cursor: pointer;
-           padding: 8px 27px 7px;  
+           padding: 8px 27px 7px;
        }
         button:focus{
         border-bottom:3px solid #EBB454;
        }
        button, select {
            text-transform: none;
-       } 
+       }
     }
     .card-body{
       font-family: 'Cairo';
@@ -160,5 +160,5 @@ color: #000000;
             font-size: 18px;
             margin-top: 10px;
             line-height: 30px;
-            }     
+            }
     }
