@@ -32,7 +32,7 @@ input {
   border: 0;
   width: 80%;
   color: black;
-  border-bottom: 2px solid $Main; 
+  border-bottom: 2px solid $Main;
   background-color: transparent;
   padding-top: 14;
   margin-top: 10;
@@ -73,7 +73,6 @@ input:focus ~ span {
   top:2px;
   background: rgba(82, 121, 55, 0.8);
   border: 3px solid rgba(235, 180, 84, 0.8);
-
 }
 
 h5{
@@ -88,7 +87,7 @@ line-height: 160%;
   font-weight: 400;
   font-size: 13px;
   text-align: right;
-  color: #000000; 
+  color: #000000;
   line-height: 160%;
   padding: 0;
 }
