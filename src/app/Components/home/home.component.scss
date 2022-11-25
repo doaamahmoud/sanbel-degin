@@ -54,9 +54,13 @@ h2{
   height: 70px;
   font-size: 28px;
   line-height: 65px;
- background-color: $Second;
+  background-color: $Second;
 }
 
+h2:hover
+{
+  background-color: $Second !important;
+}
 .carousel-text {
 
    z-index: 16;
