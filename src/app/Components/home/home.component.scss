@@ -25,7 +25,13 @@ input[type="radio"] {
   border: 3px solid rgba(235, 180, 84, 0.8);
   border-radius: 0;
   padding: 0;
+
 }
+
+.btn:hover{
+  color: $Second;
+}
+
   .btn-card{
   color:white;
   border:0;

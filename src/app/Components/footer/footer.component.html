@@ -7,14 +7,14 @@
               <div class="styled-input ">
                 <input #PerName="ngModel" type="text" [(ngModel)]="newLetter.name" name="name"
                  [class.is-valid]="PerName.valid" [class.is-invalid]="PerName.invalid && PerName.touched" required />
-                <label>الاسم</label> 
+                <label>الاسم</label>
                 </div>
                 <div class="styled-input ">
                   <input  type="email" #PerEmail="ngModel" [(ngModel)]="newLetter.email" name="email"
                    [class.is-valid]="PerEmail.valid" [class.is-invalid]="PerEmail.invalid && PerEmail.touched" required />
-                  <label>البريد الالكتروني</label> 
+                  <label>البريد الالكتروني</label>
                   </div>
-              <button [disabled]=" PerEmail.invalid &&PerName.invalid"  type="submit" class="card_button">اشترك</button>
+              <button [disabled]="PerEmail.invalid &&PerName.invalid"  type="submit" class="card_button">اشترك</button>
             </form>
         </div>
 
@@ -32,7 +32,7 @@
             <ul class="list-unstyled">
                 <li><a href="/Products">المبيدات والأسمدة</a></li>
                 <li><a href="#">نظم الري الحديثة</a></li>
-                <li><a href="#">ادوات ومعدات</a></li>
+
                 <li><a href="#">حلول الطاقة الشمسية</a></li>
             </ul>
         </div>
@@ -42,10 +42,10 @@
                   <li><a href="#">الاستشارات  فنية</a></li>
                   <li><a href="/study">دراسة الجدوي</a></li>
                   <li><a href="#">ادارة المزارع</a></li>
-                  <li><a href="#">معامل تحاليل التربة</a></li>
+
               </ul>
           </div>
-       
+
           <div class="col-md-3">
             <img src="../../../assets/sanabel-logo.png"/>
            <div >
@@ -59,10 +59,10 @@
             <li><a href="#"><span class="icon-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></span></a></li>
             <li><a href="#"><span class="icon-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></span></a></li>
             <li><a href="#"><span class="icon-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></span></a></li>
-            <li><a href="#"><span class="icon-whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></span></a></li>          
+            <li><a href="#"><span class="icon-whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></span></a></li>
           </ul>
         </div>
-        
+
         </div>
     </div>
  </footer>
