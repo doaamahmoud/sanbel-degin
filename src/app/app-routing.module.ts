@@ -8,6 +8,7 @@ import { FeasibilityStudyComponent } from './Components/feasibility-study/feasib
 import { HomeComponent } from './Components/home/home.component';
 import { IrrigationSystemComponent } from './Components/irrigation-system/irrigation-system.component';
 import { LayoutComponent } from './Components/layout/layout.component';
+import { PartnersComponent } from './Components/partners/partners.component';
 import { ProductsComponent } from './Components/products/products.component';
 import { SanableAcademyComponent } from './Components/sanable-academy/sanable-academy.component';
 import { SanableLaboratoryComponent } from './Components/sanable-laboratory/sanable-laboratory.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path:'Consulting & Advising', component:ConsultingAdvisingComponent},
   {path:'Sanable Laboratory', component:SanableLaboratoryComponent},
   {path:'Sanable Academy', component:SanableAcademyComponent},
+  {path:'partners',component:PartnersComponent},
   {path:'ContactUS',component:ContactUSComponent}
 ]},
   {path:'**',redirectTo:'/Home'},

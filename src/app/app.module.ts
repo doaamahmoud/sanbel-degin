@@ -19,6 +19,7 @@ import { FarmManagementComponent } from './Components/farm-management/farm-manag
 import { ConsultingAdvisingComponent } from './Components/consulting-advising/consulting-advising.component';
 import { SanableLaboratoryComponent } from './Components/sanable-laboratory/sanable-laboratory.component';
 import { SanableAcademyComponent } from './Components/sanable-academy/sanable-academy.component';
+import { PartnersComponent } from './Components/partners/partners.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { SanableAcademyComponent } from './Components/sanable-academy/sanable-ac
     FarmManagementComponent,
     ConsultingAdvisingComponent,
     SanableLaboratoryComponent,
-    SanableAcademyComponent
+    SanableAcademyComponent,
+    PartnersComponent
   ],
   imports: [
     BrowserModule,
