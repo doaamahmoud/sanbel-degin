@@ -58,7 +58,10 @@ input:focus ~ label,  input:valid ~ label, textarea:focus ~label , textarea:vali
     color: white;  
     border: 0;
   }
-
+.card_button:hover{
+  background: white;
+  color:  rgba(82, 121, 55, 0.8);  
+}
   .info{
     .p1{
       font-weight: bold;
