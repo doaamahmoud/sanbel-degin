@@ -15,9 +15,9 @@ import { SolarEnergySolutionsComponent } from './Components/solar-energy-solutio
 const routes: Routes = [
 {path:'',component:LayoutComponent, children:[
   {path:'',redirectTo:'/Home',pathMatch:'full'},
-  {path:'Home',component:HomeComponent}, 
-  {path:'Fertilizers & pesticides ', component:ProductsComponent},
-  {path :'Irrigation system supply', component:IrrigationSystemComponent},
+  {path:'Home',component:HomeComponent},
+  {path:'Fertilizers & pesticides', component:ProductsComponent},
+  {path:'Irrigation system supply', component:IrrigationSystemComponent},
   {path:'Solar energy solutions', component:SolarEnergySolutionsComponent},
   {path:'About',component:AboutComponent},
   {path:'Feasibility studies',component:FeasibilityStudyComponent},
