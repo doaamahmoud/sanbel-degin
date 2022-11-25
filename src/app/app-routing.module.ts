@@ -9,6 +9,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { IrrigationSystemComponent } from './Components/irrigation-system/irrigation-system.component';
 import { LayoutComponent } from './Components/layout/layout.component';
 import { ProductsComponent } from './Components/products/products.component';
+import { SanableAcademyComponent } from './Components/sanable-academy/sanable-academy.component';
 import { SanableLaboratoryComponent } from './Components/sanable-laboratory/sanable-laboratory.component';
 import { SolarEnergySolutionsComponent } from './Components/solar-energy-solutions/solar-energy-solutions.component';
 
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path:'Farm Management',component:FarmManagementComponent},
   {path:'Consulting & Advising', component:ConsultingAdvisingComponent},
   {path:'Sanable Laboratory', component:SanableLaboratoryComponent},
+  {path:'Sanable Academy', component:SanableAcademyComponent},
   {path:'ContactUS',component:ContactUSComponent}
 ]},
   {path:'**',redirectTo:'/Home'},

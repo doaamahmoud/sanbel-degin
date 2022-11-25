@@ -1,0 +1,27 @@
+@import url('../feasibility-study/feasibility-study.component.scss');
+@import url('../about/about.component.scss');
+
+.opac{
+background-color: black;
+opacity: 0.9;
+ul li{
+    font-size: 18px;
+}
+ul li:hover{
+    color: #EBB454;
+}
+}
+
+@media screen and (max-width:420px) {
+    .opac{
+        height: 200px;
+        padding: 0;
+        ul li{
+            padding: 0;
+            font-size: 8px;
+        }
+        div div{
+            margin-top: -12px !important;
+        }
+        }
+}
