@@ -1,15 +1,60 @@
 @import url('../feasibility-study/feasibility-study.component.scss');
 
+.introduction{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 156.9%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .marintro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
 .card{
     border: none;
+    height: 200px;
 }
+ .shadowtologo div{
+    box-shadow: 0px 0px 73px -8px rgba(0, 0, 0, 0.17);
+ }
+ .shadowtologo div img{
+    align-items: center;
+ }
+ .info{
+    .p1{
+     
+      text-align: right;
+      margin-right: 41px;
+    }
+    .p2{
+        font-weight: bolder;
+        color: #537A38;
+        font-size: 32px;
+        line-height: 60px;
+    }
+  }
 
+  .card_button{
+    box-sizing: border-box;
+    width: 140px;
+    height: 33px;
+    position: relative;
+    top:2px;
+    background: rgba(82, 121, 55, 0.8);
+    color: white;  
+    border: 0;
+  }
+.card_button:hover{
+  background: white;
+  color:  rgba(82, 121, 55, 0.8);  
+  border: 1px solid ;
+}
 @media screen and (max-width:420px) {
 
-    .ListLab{
-        padding: 0 !important;
-        margin: 0 !important;
-    }
 .logo1{
     width: 60px;
     height: 60px;
@@ -33,5 +78,49 @@
 .logo5{
     width: 100px;
     height: 90px;
+}
+.info{
+    .p1{
+      margin-right: 1px;
+      font-size: 5px;
+    }
+    .p2{
+        font-size: 10px;
+        line-height: 22px;
+        font-weight: bold;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+  }
+  .card_button{
+    width: 90px;
+    height: 28px;
+     font-size: 13px;
+  }
+  .card{
+    border: none;
+    height: 80px;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+}
+.img2{
+    width: 50px;
+    height: 35px;
+}
+.img3{
+    width: 40px;
+    height: 40px;
+   margin-top: -5px;
+}
+.img4{
+    width: 60px;
+    height: 60px;
+    margin-top: -15px;
+}
+.marintro{
+    font-size: 16px;
 }
 }

@@ -1,11 +1,35 @@
 @import url('../feasibility-study/feasibility-study.component.scss');
 @import url('../about/about.component.scss');
 
+.textstyle{
+    font-size: 21px;
+    h4{
+        font-weight: bold;
+    }
+    ul li{
+        list-style: none;
+    }
+}
+.marintro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .introduction{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 156.9%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 .opac{
 background-color: black;
 opacity: 0.9;
-ul li{
-    font-size: 18px;
+ul {
+li{
+    font-size: 18px;  
+}
 }
 ul li:hover{
     color: #EBB454;
@@ -13,12 +37,16 @@ ul li:hover{
 }
 
 @media screen and (max-width:420px) {
+    .marintro{
+        font-size: 16px;
+    }
     .opac{
         height: 200px;
         padding: 0;
         ul li{
             padding: 0;
             font-size: 8px;
+            list-style: none;
         }
         div div{
             margin-top: -12px !important;
