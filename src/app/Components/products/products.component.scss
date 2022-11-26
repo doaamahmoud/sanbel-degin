@@ -1,4 +1,31 @@
+.accordion-section{
+  width: 85%;
+}
+.accordion-section .panel-default > .panel-heading {
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 1.5rem;
+  content: "\f106";
+  color: black;
+  float: left;
 
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}
 
 
 .productus{
@@ -161,4 +188,13 @@ color: #000000;
             margin-top: 10px;
             line-height: 30px;
             }     
+            .accordion-section .panel-default .panel-title a {
+              font-size: 0.8rem;
+            }
+            .accordion-section .panel-default .panel-title a:after {
+              font-size: 1rem;
+            }
+            .accordion-section .panel-default .panel-body {
+              font-size: 0.9rem;
+            }
     }
