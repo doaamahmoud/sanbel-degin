@@ -20,6 +20,7 @@ import { ConsultingAdvisingComponent } from './Components/consulting-advising/co
 import { SanableLaboratoryComponent } from './Components/sanable-laboratory/sanable-laboratory.component';
 import { SanableAcademyComponent } from './Components/sanable-academy/sanable-academy.component';
 import { PartnersComponent } from './Components/partners/partners.component';
+import { DealsComponent } from './Components/deals/deals.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { PartnersComponent } from './Components/partners/partners.component';
     ConsultingAdvisingComponent,
     SanableLaboratoryComponent,
     SanableAcademyComponent,
-    PartnersComponent
+    PartnersComponent,
+    DealsComponent
   ],
   imports: [
     BrowserModule,

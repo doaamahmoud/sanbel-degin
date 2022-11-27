@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './Components/about/about.component';
 import { ConsultingAdvisingComponent } from './Components/consulting-advising/consulting-advising.component';
 import { ContactUSComponent } from './Components/contact-us/contact-us.component';
+import { DealsComponent } from './Components/deals/deals.component';
 import { FarmManagementComponent } from './Components/farm-management/farm-management.component';
 import { FeasibilityStudyComponent } from './Components/feasibility-study/feasibility-study.component';
 import { HomeComponent } from './Components/home/home.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path:'Sanable Laboratory', component:SanableLaboratoryComponent},
   {path:'Sanable Academy', component:SanableAcademyComponent},
   {path:'partners',component:PartnersComponent},
+  {path:'Deals',component:DealsComponent},
   {path:'ContactUS',component:ContactUSComponent}
 ]},
   {path:'**',redirectTo:'/Home'},
