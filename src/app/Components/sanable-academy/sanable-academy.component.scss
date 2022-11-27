@@ -35,7 +35,34 @@ ul li:hover{
     color: #EBB454;
 }
 }
-
+.card{
+    height: 450px;
+}
+.card-body{
+    font-size: 18px;
+    text-align: center;
+}
+.hicard{
+    border: 0;
+    height: 450px;
+}
+.card_button{
+    box-sizing: border-box;
+    width: 170px;
+    height: 33px;
+    position: relative;
+    top:2px;
+    background: rgba(82, 121, 55, 0.8);
+    color: white;  
+    border: 0;
+  }
+.card_button:hover{
+  background: white;
+  color:  rgba(82, 121, 55, 0.8);  
+}
+.Academybtn{
+    margin-bottom: 150px;
+}
 @media screen and (max-width:420px) {
     .marintro{
         font-size: 16px;
@@ -52,4 +79,9 @@ ul li:hover{
             margin-top: -12px !important;
         }
         }
+        .card_button{
+            width: 90px;
+            height: 28px;
+             font-size: 13px;
+          }
 }
