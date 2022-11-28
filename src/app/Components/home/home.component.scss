@@ -11,7 +11,7 @@ input[type="radio"] {
   appearance: none;
   background-color: #fff;
   font: inherit;
-  color: currentColor;
+  color: #AA9767;
   width: 1.15em;
   height: 1.15em;
   border-radius: 50%;
@@ -57,13 +57,10 @@ h2{
   height: 70px;
   font-size: 28px;
   line-height: 65px;
-  background-color: $Second;
+  background-color: #AA9767;
 }
 
-h2:hover
-{
-  background-color: $Second !important;
-}
+
 .carousel-text {
 
    z-index: 16;
@@ -205,7 +202,8 @@ margin: 0;
 }
 .productus> div h2 a{
   text-decoration: none;
-  color: #527937;
+  color: #006937;
+  ;
 }
 .productus> div h2 a:hover{
   color: #25440e;
@@ -343,6 +341,7 @@ margin: 0;
     width: 35px;
     height: 15px;
     font-size: 5px;
+    color: #AA9767;
   }
 }
 

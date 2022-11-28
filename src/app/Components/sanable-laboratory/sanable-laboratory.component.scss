@@ -1,20 +1,88 @@
 @import url('../feasibility-study/feasibility-study.component.scss');
 
+li{
+    list-style: none;
+}
 
-.ListLab{
-    height: 300px;
-    background-color: rgb(26, 25, 25);
-    color:#EBB454;
-    border: 2px solid #EBB454;
-    ul 
-    {
-        padding: 0;
-    li{
-        list-style: none;
 
+.introduction{
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 156.9%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.marintro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  div > .st1{
+    width: 70%;
+    height: 70%;
+   z-index: -10px;
+  }
+  div > .st2{
+  width: 70%;
+  height: 70%;
+  z-index:10%;
+  margin-top: -14%;
+  margin-left: -18%;
+  }
+
+  div > .st3{
+    width: 70%;
+    height: 70%;
+   z-index: -10px;
+   margin-left:18%;
+  }
+  div > .st4{
+  width: 70%;
+  height: 70%;
+  z-index:10%;
+  margin-top: -14%;
+  }
+  .titlelab{
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .card_button{
+    box-sizing: border-box;
+    width: 140px;
+    height: 33px;
+    position: relative;
+    top:2px;
+    background: #006937;
+    color: white;  
+    border: 0;
+  }
+.card_button:hover{
+  background: white;
+  color:  #006937;  
+}
+.Academybtn{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@media screen and (max-width:420px) {
+    .marintro{
+        font-size: 16px;
     }
-}
-}
-.ListLab li:hover{
-    color:rgba(82, 121, 55, 0.56);
+    .titlelab{
+ 
+        font-size: 13px;
+      }
+      .card_button{
+        width: 90px;
+        height: 28px;
+         font-size: 13px;
+      }
+      ul {
+        padding-right: 7px;
+      }
+      .icon{
+        width: 0.6rem;
+        height: 0.6rem;
+      }
 }
