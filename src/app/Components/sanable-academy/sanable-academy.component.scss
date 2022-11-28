@@ -63,6 +63,11 @@ ul li:hover{
 .Academybtn{
     margin-bottom: 150px;
 }
+
+.titlelab{
+    font-weight: bold;
+    font-size: 24px;
+  }
 @media screen and (max-width:420px) {
     .marintro{
         font-size: 16px;
@@ -84,4 +89,51 @@ ul li:hover{
             height: 28px;
              font-size: 13px;
           }
+
+          .titlelab{
+ 
+            font-size: 13px;
+          }
+    
+          ul {
+            padding-right: 7px;
+            li{
+                font-size: 9px;
+            }
+          }
+          .icon{
+            width: 0.6rem;
+            height: 0.6rem;
+          }
+          .st1, .st2{
+            margin-top: 50px;
+          }
+          .marintro{
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+          .card{
+            height: 190px;
+            margin: 7px;
+            .img1{
+               width: 8rem !important;
+               height: 8rem !important;
+            }
+        }
+        .card-body{
+            font-size: 10px;
+            width: 100%;
+        }
+        .hicard{
+            height: 190px;
+        }
+        .card_button{
+            width: 170px;
+            height: 33px;
+            top:2px;
+          }
+
+        .Academybtn{
+         margin-bottom: 80px;
+        }
 }

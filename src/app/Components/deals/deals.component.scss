@@ -1,24 +1,57 @@
 @import url('../sanable-academy/sanable-academy.component.scss');
 @import url('../feasibility-study/feasibility-study.component.scss');
 
-div > .st2{
-    width: 60%;
+div > .st1{
+    width: 70%;
     height: 70%;
-    z-index:10%;
-    margin-top: -10%;
-    margin-left: -1%;
-    }
-    div > .st4{
-        width: 60%;
-        height: 70%;
-        z-index:10%;
-        margin-top: -10%;
-        margin-right: 75px;
-        }
-
-        div > .st3{
-            width: 70%;
-            height: 70%;
-           z-index: -10px;
-           margin-left:-20%;
-          }
+   z-index: -10px;
+  }
+  div > .st2{
+  width: 65%;
+  height: 70%;
+  z-index:10%;
+  margin-top: -10%;
+  margin-left: -1%;
+  }
+  div > .st3{
+    width: 70%;
+    height: 70%;
+   z-index: -10px;
+   margin-left:-1%;
+  }
+  div > .st4{
+  width: 65%;
+  height: 70%;
+  z-index:10%;
+  margin-top: -10%;
+  }
+ @media screen and (max-width:420px) {
+.textstyle{
+    font-size: 12px;
+}
+div > .st1{
+    width: 100%;
+    height: 80%;
+   z-index: -10px;
+  }
+  div > .st2{
+  width: 95%;
+  height: 80%;
+  z-index:10%;
+  margin-top: -10%;
+  margin-left: -1%;
+  }
+  div > .st3{
+    width: 100%;
+    height: 80%;
+   z-index: -10px;
+   margin-left:-1%;
+   margin-top: 50px;
+  }
+  div > .st4{
+  width: 95%;
+  height: 80%;
+  z-index:10%;
+  margin-top: -20%;
+  }
+}

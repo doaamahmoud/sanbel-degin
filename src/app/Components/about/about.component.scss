@@ -144,14 +144,16 @@
             }
            }
            div > .st3{
-            width: 60%;
-            height: 60%;
+            width: 70%;
+            height: 70%;
            z-index: -10px;
+           margin-top: 100px;
           }
           div > .st4{
-          width: 60%;
-          height: 60%;
+          width: 70%;
+          height: 70%;
           z-index:10%;
+          margin-top: -20px;
           }
 
           .about{
@@ -209,5 +211,8 @@
             font-weight:700;
             font-size: 18px;
             line-height: 40px;
+           }
+           .opac{
+            padding: 0;
            }
         }
