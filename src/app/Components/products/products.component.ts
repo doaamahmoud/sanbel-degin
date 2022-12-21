@@ -13,8 +13,8 @@ import { ISupCategory } from 'src/app/ViewModels/i-sup-category';
 export class ProductsComponent implements OnInit {
 SupCategoriesList:ISupCategory[];
 ProductsList:IProduct[];
-categoryID:number=2002;
-  constructor(private SupCategoryService:SupcategoryService, private productService:ProductService, private San:DomSanitizer) { 
+categoryID:number=1;
+  constructor(private SupCategoryService:SupcategoryService, private productService:ProductService, private San:DomSanitizer) {
    this.SupCategoriesList=[];
    this.ProductsList=[];
   }
@@ -26,14 +26,14 @@ categoryID:number=2002;
       console.log(this.categoryID);
     });
 
-    this.productService.getProductsBySupCategoryID(2002).subscribe(data=>{
+    this.productService.getProductsBySupCategoryID(1).subscribe(data=>{
       this.ProductsList=data;
       this.ProductsList.forEach(element => {
         element.url=this.San.bypassSecurityTrustUrl('data:image/png;base64,'+element.image)
       });
-     
+
     })
-    
+
  }
  showProducts(id:number){
   this.productService.getProductsBySupCategoryID(id).subscribe(data=>{
@@ -41,7 +41,7 @@ categoryID:number=2002;
     this.ProductsList.forEach(element => {
       element.url=this.San.bypassSecurityTrustUrl('data:image/png;base64,'+element.image)
     });
-   
+
   })
  }
 
