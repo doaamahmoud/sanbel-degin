@@ -148,9 +148,9 @@
       <div class="card  m-2 border-0 col-3"  Ligth *ngFor="let art of ArticleList; let i=index">
           <img class="card-img-top" height="170rem" [src]="art.url" alt="Card image cap">
           <div class="card-body p-0" >
-            <p class="card-text">{{art.description}}</p>
+            <p class="card-text ">{{art.name}}</p>
             <div class="d-flex justify-content-end">
-            <button class="btn-card">اعرف المزيد</button>
+            <button class="btn-card" routerLinkActive="" [routerLink]="['/Home/Article', art.id]">اعرف المزيد</button>
           </div>
           </div>
       </div>

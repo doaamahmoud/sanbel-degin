@@ -14,7 +14,11 @@ export class ProductsComponent implements OnInit {
 SupCategoriesList:ISupCategory[];
 ProductsList:IProduct[];
 categoryID:number=1;
+<<<<<<< HEAD
   constructor(private SupCategoryService:SupcategoryService, private productService:ProductService, private San:DomSanitizer) {
+=======
+  constructor(private SupCategoryService:SupcategoryService, private productService:ProductService, private San:DomSanitizer) { 
+>>>>>>> b5ef3c96c440e3cddfc7b9bf630810800629cab0
    this.SupCategoriesList=[];
    this.ProductsList=[];
   }
@@ -22,7 +26,6 @@ categoryID:number=1;
   ngOnInit(): void {
     this.SupCategoryService.getSupCategoriesByCategoryID(this.categoryID).subscribe(data=>{
       this.SupCategoriesList=data;
-
       console.log(this.categoryID);
     });
 

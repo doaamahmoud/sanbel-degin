@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  APIBaseURL:"http://infosmartvision-001-site1.ftempurl.com/sanabelapi/api"
+  APIBaseURL:"https://localhost:7161/api"
 };
 
 /*

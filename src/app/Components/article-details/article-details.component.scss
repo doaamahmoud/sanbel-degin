@@ -1,0 +1,26 @@
+.btn {
+    height: 50px;
+    font-size: 18px;
+    background: rgba(82, 121, 55, 0.8);
+    border: 1px solid rgba(235, 180, 84, 0.8);
+    
+  }
+  .btn:hover{
+    border:1px solid rgba(82, 121, 55, 0.8);
+    background:  rgba(235, 180, 84, 0.8);
+  }
+
+  h2{
+    width: 438px;
+    height: 70px;
+    font-size: 28px;
+    line-height: 65px;
+    font-weight: bold;
+  }
+  p{
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 156.9%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+  }
