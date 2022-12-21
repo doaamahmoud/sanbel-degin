@@ -13,7 +13,7 @@ import { ISupCategory } from 'src/app/ViewModels/i-sup-category';
 export class IrrigationSystemComponent implements OnInit {
   SupCategoriesList:ISupCategory[];
   ProductsList:IProduct[];
-  categoryID:number=3002;
+  categoryID:number=2;
     constructor(private SupCategoryService:SupcategoryService, private productService:ProductService, private San:DomSanitizer) { 
      this.SupCategoriesList=[];
      this.ProductsList=[];

@@ -21,6 +21,8 @@ import { SanableLaboratoryComponent } from './Components/sanable-laboratory/sana
 import { SanableAcademyComponent } from './Components/sanable-academy/sanable-academy.component';
 import { PartnersComponent } from './Components/partners/partners.component';
 import { DealsComponent } from './Components/deals/deals.component';
+import { ProductDetailsComponent } from './Components/product-details/product-details.component';
+import { ArticleDetailsComponent } from './Components/article-details/article-details.component';
 
 
 @NgModule({
@@ -41,7 +43,9 @@ import { DealsComponent } from './Components/deals/deals.component';
     SanableLaboratoryComponent,
     SanableAcademyComponent,
     PartnersComponent,
-    DealsComponent
+    DealsComponent,
+    ProductDetailsComponent,
+    ArticleDetailsComponent
   ],
   imports: [
     BrowserModule,

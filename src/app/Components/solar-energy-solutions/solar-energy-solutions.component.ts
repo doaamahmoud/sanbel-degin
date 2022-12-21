@@ -12,7 +12,7 @@ import { ISupCategory } from 'src/app/ViewModels/i-sup-category';
 export class SolarEnergySolutionsComponent implements OnInit {
   SupCategoriesList:ISupCategory[];
   ProductsList:IProduct[];
-  categoryID:number=4002;
+  categoryID:number=3;
     constructor(private SupCategoryService:SupcategoryService, private productService:ProductService, private San:DomSanitizer) { 
      this.SupCategoriesList=[];
      this.ProductsList=[];

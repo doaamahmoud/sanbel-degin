@@ -13,7 +13,7 @@ import { ISupCategory } from 'src/app/ViewModels/i-sup-category';
 export class ProductsComponent implements OnInit {
 SupCategoriesList:ISupCategory[];
 ProductsList:IProduct[];
-categoryID:number=2002;
+categoryID:number=1;
   constructor(private SupCategoryService:SupcategoryService, private productService:ProductService, private San:DomSanitizer) { 
    this.SupCategoriesList=[];
    this.ProductsList=[];
@@ -22,11 +22,10 @@ categoryID:number=2002;
   ngOnInit(): void {
     this.SupCategoryService.getSupCategoriesByCategoryID(this.categoryID).subscribe(data=>{
       this.SupCategoriesList=data;
-
       console.log(this.categoryID);
     });
 
-    this.productService.getProductsBySupCategoryID(2002).subscribe(data=>{
+    this.productService.getProductsBySupCategoryID(1).subscribe(data=>{
       this.ProductsList=data;
       this.ProductsList.forEach(element => {
         element.url=this.San.bypassSecurityTrustUrl('data:image/png;base64,'+element.image)
