@@ -1,16 +1,20 @@
 <div class="container-fluid  m-0 cairo">
 
- <div class="row d-flex justify-content-center text-center mb-2 productus" >
-    <div class="col-5  p-4   align-items-center border-0">
+ <div class="row d-flex justify-content-center mb-2 productus" >
+    <div class="col-6  p-4   align-items-center border-0">
         <h2>{{ProductItem.name}}</h2>
-        <p>{{ProductItem.price}}</p>
-        <p>{{ProductItem.description}}</p>
+
+        <pre>{{ProductItem.description}}</pre>
     </div>
-    <div class="col-5  p-4   align-items-center border-0">
-        <img  [src]="ProductItem.url" width="300px" height="350px" alt="image cap">
+    <div class="col-4  p-4 align-items-center border-0" >
+      <div style="padding-top:50px;">
+        <img  [src]="ProductItem.url"  width="350px" height="350px" alt="image cap">
+      </div>
+
     </div>
  </div>
- <div class="row d-flex justify-content-center text-center ">
-    <button (click)="goBack()" class="btn btn-secondary col">Go Back</button>
+
+  <div class="row d-flex justify-content-center text-center mb-2" >
+    <button (click)="goBack()" class="btn btn-primary col-2">العودة للصفحة السابقة</button>
   </div>
 </div>
